@@ -403,10 +403,6 @@ FodyWeavers.xsd
 # Additional files built by Visual Studio
 
 # End of https://www.toptal.com/developers/gitignore/api/visualstudio
-/.vs/ApontamentoDeHoras/CopilotIndices/17.12.38.29086/*.*
-/.vs/ApontamentoDeHoras/CopilotIndices/17.12.38.29086/CodeChunks.db
-/.vs/ApontamentoDeHoras/CopilotIndices/17.12.38.29086/CodeChunks.db-shm
-/.vs/ApontamentoDeHoras/CopilotIndices/17.12.38.29086/CodeChunks.db-wal
-/.vs/ApontamentoDeHoras/CopilotIndices/17.12.38.29086/SemanticSymbols.db
-/.vs/ApontamentoDeHoras/CopilotIndices/17.12.38.29086/SemanticSymbols.db-shm
-/.vs/ApontamentoDeHoras/CopilotIndices/17.12.38.29086/SemanticSymbols.db-wal
+/.vs/ApontamentoDeHoras/CopilotIndices/17.12.38.29086/*
+./ApontamentoDeHoras.APP/obj/
+./ApontamentoDeHoras.APP/obj/*
