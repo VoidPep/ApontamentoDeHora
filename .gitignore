@@ -406,3 +406,6 @@ FodyWeavers.xsd
 /.vs/ApontamentoDeHoras/CopilotIndices/17.12.38.29086/*
 ./ApontamentoDeHoras.APP/obj/
 ./ApontamentoDeHoras.APP/obj/*
+./ApontamentoDeHoras.APP/bin/
+./ApontamentoDeHoras.APP/obj/*
+/.vs/
