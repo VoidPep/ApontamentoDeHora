@@ -2,7 +2,7 @@
 
 namespace ApontamentoDeHoras.APP
 {
-    partial class Form1
+    partial class MainForm
     {
         /// <summary>
         ///  Required designer variable.
@@ -198,8 +198,8 @@ namespace ApontamentoDeHoras.APP
             Controls.Add(textBox2);
             Controls.Add(textBox1);
             Controls.Add(comboBox1);
-            Name = "Form1";
-            Text = "Form1";
+            Name = "MainForm";
+            Text = "Apontamento de horas";
             Load += OnForm_Load;
             ((System.ComponentModel.ISupportInitialize)dataGridView1).EndInit();
             ResumeLayout(false);

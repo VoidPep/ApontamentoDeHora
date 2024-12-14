@@ -7,11 +7,6 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApontamentoDeHoras.APP", "A
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ApontamentoDeHoras.Domain", "ApontamentoDeHoras.Domain\ApontamentoDeHoras.Domain.csproj", "{D0AF1A38-0105-42E6-A9AB-251D04E15580}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "banco", "banco", "{FC19DB44-5A37-4A99-976E-A459B9FDE500}"
-	ProjectSection(SolutionItems) = preProject
-		ContadorDeHoras.db = ContadorDeHoras.db
-	EndProjectSection
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

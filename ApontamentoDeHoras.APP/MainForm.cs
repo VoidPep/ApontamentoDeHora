@@ -1,12 +1,14 @@
+using ApontamentoDeHoras.Domain.Helpers;
+
 namespace ApontamentoDeHoras.APP;
-public partial class Form1 : Form
+public partial class MainForm : Form
 {
     private bool _iniciado = false;
     private DateTime _dataAtual = DateTime.Now;
     private Thread _contadorThread;
     private TimeSpan _tempoDecorrido;
 
-    public Form1()
+    public MainForm()
     {
         Inicializar();
         CreateDataBase();
@@ -16,7 +18,10 @@ public partial class Form1 : Form
     private void Inicializar()
     {
         InitializeComponent();
-        buttonHoje_Click();
+        
+        DatabaseHelper.CreateDatabase();
+
+        SetDataAtual();
     }
 
     private void IniciarThreadDoTimer()
@@ -109,8 +114,8 @@ public partial class Form1 : Form
         dateTimePicker.Value = _dataAtual.Date.AddDays(-1);
     }
 
-    private void buttonHoje_Click(object sender, EventArgs e) => buttonHoje_Click();
-    private void buttonHoje_Click()
+    private void buttonHoje_Click(object sender, EventArgs e) => SetDataAtual();
+    private void SetDataAtual()
     {
         dateTimePicker.Value = DateTime.Now;
         AtualizarDataAtual();

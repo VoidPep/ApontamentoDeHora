@@ -10,10 +10,14 @@ internal static class Program
     [STAThread]
     static void Main()
     {
+        AppDomain.CurrentDomain.SetData("DataDirectory", AppDomain.CurrentDomain.BaseDirectory);
+
         Thread.CurrentThread.CurrentCulture = new CultureInfo("pt-BR");
         Thread.CurrentThread.CurrentUICulture = new CultureInfo("pt-BR");
 
+        Application.EnableVisualStyles();
+        Application.SetCompatibleTextRenderingDefault(false);
         ApplicationConfiguration.Initialize();
-        Application.Run(new Form1());
+        Application.Run(new MainForm());
     }
 }
